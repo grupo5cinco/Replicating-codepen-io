@@ -1,0 +1,95 @@
+/*                                  Common nav styles       */
+.opt-nav {
+    background-color: #212329;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+/*                                  Left column styles      */
+.opt-nav > .left-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: left;
+    margin-left: 80px;
+}
+
+/*                              style of left column        */
+.opt-nav > .left-column > .expl-1  {
+    display: flex;
+    color:white;
+    margin-top: 40px;
+    font-size: 2.2em;
+    font-family: 'Open Sans', sans; 
+}
+
+.opt-nav > .left-column > .expl-1 > p  {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+/*                                             text lighter in the first parragraf   */
+.opt-nav > .left-column > .expl-1 > p > .opt-left-1-1 {
+    color:white;
+    font-weight: lighter;
+}
+
+/*                                             text bolder in the first parragraf   */
+.opt-nav > .left-column > .expl-1 > p > .opt-left-1-2 {
+    color:beige;
+    font-weight: bolder;
+}
+
+/*                                             text in the second parragraf   */
+.opt-nav > .left-column > .expl-2 {
+    font-size: 2.2em;
+    color:white;
+    font-weight: normal;
+}
+
+.opt-nav > .left-column > .expl-3 {
+    display: flex;
+}
+
+/*                                      right column styles      */
+.opt-nav > .right-column {
+    display: grid;   
+    grid-template-columns: 1fr;
+    align-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.opt-nav > .right-column > .lev1    {
+    margin-top: 30px;
+    padding: 0px 0px;
+}
+
+.opt-nav > .right-column > .lev1 > p   {
+    display: flex;
+    margin-left: 100px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.opt-nav > .right-column > .lev1 > p > .opt-right-1  {
+    font-size: 1em;
+    color: whitesmoke;
+}
+
+.opt-nav > .right-column > .lev1 > p > .opt-right-2 {
+    font-size: 1em;
+    color: lightblue;
+}
+
+/*                                               Page Coddepen.io example   */
+.opt-nav > .right-column > .banner-image {
+    display: flex;
+    justify-content: right;
+}
+
+/*                                                  Size of the page example        */
+.opt-nav > .right-column > .banner-image img {
+    width: 560px;
+    height: 100%;
+}

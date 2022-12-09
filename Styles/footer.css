@@ -1,0 +1,36 @@
+.option-footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.option-footer > .opt-foot {
+    font-size: 2em;
+    background-color: #666666;
+    color: white;
+    width: 350px;
+    border: 1px solid #cccccc;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.option-footer > .opt-foot > p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+.option-footer > .opt-foot > p > .opt-foott-1-1 {
+    color:white;
+    font-weight: normal;
+}
+
+.option-footer > .opt-foot >  p > .opt-foot-1-2 {
+    color:beige;
+    font-weight: bolder;
+}

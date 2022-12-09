@@ -1,0 +1,9 @@
+
+special case
+
+I link at the same page "index.html", in the case of the "find", I link to google.
+Only change aspect in the Find botton and the menu of explore.
+you can launch with the on click the place 
+I am make the media option for the header.
+
+

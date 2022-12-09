@@ -1,0 +1,116 @@
+/*                    Common header  styles       */
+.opt-header {
+    height: 60px;
+    background-color: #000000;
+    color: #cbcbcb;
+    /*      Flexbox container        */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*                          Left column styles      */
+.opt-header > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+/*                          logo Coddepen.io    */
+.opt-header > .left-column > .banner-image {
+    margin-left: 20px;
+}
+
+/*                          Size of the logo ofcodepen.io        */
+.opt-header > .left-column > .banner-image img {
+    width: 180px;
+    height: 100%;
+}
+
+/*                          Text menu Explore        */
+.opt-header > .left-column > .menu {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*                          Text title Explore        */
+.opt-header > .left-column > .menu > .title-explore {
+    display: flex;
+    color:yellow;
+    margin-left: 30px;
+}
+
+/*                          Text Option Explore        */
+.opt-header > .left-column > .menu > .opt-expl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/*                          style link Option menu Explore        */
+.opt-header > .left-column > .menu > .opt-expl > .lnk-expl {
+    width: 70px;
+    text-align: center;
+}
+
+/*                          style link Option menu Explore        */
+.opt-header > .left-column > .menu > .opt-expl > .lnk-expl a {
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+/*                          change style link Option menu Explore        */
+.opt-header > .left-column > .menu > .opt-expl > .lnk-expl  a:hover{
+    color: gainsboro;
+    font-weight: lighter;
+}
+
+/*                          style link Option menu Explore diferent for spark        */
+.opt-header > .left-column > .menu > .opt-expl > .lnk-expl > .opt-spark a {
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: 0.5s;
+}
+
+/*                          change style link Option menu Explore diferent for spark        */
+.opt-header > .left-column > .menu > .opt-expl > .lnk-expl > .opt-spark a:hover{
+    font-weight: bold;
+    color: gainsboro;
+}
+
+/*                              right column styles      */
+.opt-header > .right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+
+/*                              stle of right buttons       */
+.opt-header > .right-column > .opt-right {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+/*                                      botton text     */
+.opt-header > .right-column > .opt-right >.opt-find1{
+    font-size: 2em;
+    color: white;
+}
+
+/*                              change the imagen of find on the web    */
+.opt-header > .right-column > .opt-right >.opt-find1 i {
+    color: white;
+    transition: 0.5s;
+}
+
+.opt-header > .right-column > .opt-right >.opt-find1 i:hover {
+    color: #cea135;
+}

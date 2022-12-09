@@ -1,0 +1,66 @@
+@media (max-width: 615px) {
+    .opt-header {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .opt-header > .left-column {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .opt-header > .left-column > .banner-image {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .opt-header > .left-column > .menu {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .opt-header > .right-column {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .opt-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .opt-nav > .left-column {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .opt-nav > .right-column {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .opt-nav > .right-column > .banner-image {
+        margin: 10px 0px 5px 0px !important;
+        width: 100% !important;
+    }
+    
+    .option-footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .option-footer > .opt-foot {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+
+}
